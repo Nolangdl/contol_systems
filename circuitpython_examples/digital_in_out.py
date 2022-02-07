@@ -9,7 +9,9 @@ led = DigitalInOut(board.LED)
 led.direction = Direction.OUTPUT
 
 # Switch setup
+#connected to board.D2
 switch = DigitalInOut(board.D2)
+
 switch.direction = Direction.INPUT
 switch.pull = Pull.UP
 
