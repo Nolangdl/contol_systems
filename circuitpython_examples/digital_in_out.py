@@ -19,5 +19,5 @@ while True:
         led.value = False
     else:
         led.value = True
-
+#if the switch is turned on then the value of the led will be false otherwise its true 
     time.sleep(0.01)  # debounce delay
